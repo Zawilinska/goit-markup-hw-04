@@ -92,7 +92,7 @@ body {
 .baner {
   background-color: var(--color-section);
   text-align: center;
-  background-image: url(./images/office.jpg);
+  background-image: url(/images/office.jpg);
 }
 /*
 .gradient {
