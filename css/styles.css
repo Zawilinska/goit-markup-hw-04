@@ -33,7 +33,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--color-black);
-  width: 1600px;
 }
 
 .navigation {
@@ -67,6 +66,7 @@ body {
 
 .page-border {
   border-bottom: 1px solid var(--color-border);
+  max-width: 1600px;
 }
 
 .contact-tel {
@@ -94,6 +94,7 @@ body {
   text-align: center;
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), transparent),
     url('../images/office.jpg');
+  max-width: 1600px;
 }
 
 .baner-text {
@@ -294,6 +295,7 @@ body {
 
 .footer {
   background-color: var(--color-section);
+  max-width: 1600px;
 }
 
 .size-footer {
@@ -420,21 +422,12 @@ ul {
 
 .list-social-links {
   display: flex;
+  justify-content: space-evenly;
+  padding-top: 16px;
 }
 
 .social-links {
   padding: 12px;
-  margin-right: 10px;
-  padding-top: 16px;
-  cursor: pointer;
-  display: flex;
-}
-
-.social-links-first {
-  padding: 12px;
-  margin-right: 10px;
-  margin-left: 32px;
-  padding-top: 16px;
   cursor: pointer;
 }
 
