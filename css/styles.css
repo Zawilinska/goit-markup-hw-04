@@ -56,7 +56,7 @@ body {
   color: var(--color-black);
   cursor: pointer;
   letter-spacing: 0.02em;
-  margin-right: 345px;
+  margin-right: 336px;
 }
 
 .page-header {
@@ -418,13 +418,22 @@ ul {
 }
 
 .svg-header {
-  margin-right: 10px;
   cursor: pointer;
   width: 16px;
   height: 15px;
 }
 
-.svg-contact:hover {
+.svg-contact {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.list-header {
+  list-style: none;
+  display: flex;
+}
+
+.hover-contact:hover {
   --color1: var(--color-blue);
 }
 
