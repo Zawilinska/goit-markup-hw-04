@@ -511,17 +511,18 @@ ul {
 .svg-footer {
   margin-right: 10px;
   padding-top: 20px;
-}
-
-.circle {
-  background: rgba(255, 255, 255, 0.1);
-
-  border-radius: 50%;
-  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  margin-right: 10px;
   cursor: pointer;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
 
-.circle:hover {
+.svg-footer:hover {
   background-color: var(--color-blue);
 }
 
